@@ -28,6 +28,8 @@ h2 {
 	overflow: hidden;
 	width: 200px;
 	height: 200px;
+	
+	opacity: 1.0;
 }
 
 .back {
@@ -36,3 +38,10 @@ h2 {
 	height: 160px;
 }
 
+.front:hover {
+
+	perspective:180px;
+}
+.back:hover {
+	opacity: 1.0;
+}
