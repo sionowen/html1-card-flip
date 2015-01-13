@@ -28,7 +28,8 @@ h2 {
 	overflow: hidden;
 	width: 200px;
 	height: 200px;
-	
+	perspective: none;
+	transform: rotate 180;
 	opacity: 1.0;
 }
 
@@ -39,9 +40,9 @@ h2 {
 }
 
 .front:hover {
-
-	perspective:180px;
+	transform: rotate 180;
+	
 }
 .back:hover {
-	opacity: 1.0;
+
 }

@@ -8,6 +8,19 @@
 		-webkit-backface-visibility
 */
 .front{
-position: absolute;
+	position: absolute;
+	-webkit-transition: -webkit-transform 2s;
 
+}
+
+.back{
+	-webkit-transition: -webkit-transform 2s;
+}
+
+.portfolio-item:hover .front{
+	-webkit-transform: rotateY(180deg);
+}
+
+.portfolio-item:hover .back{
+	-webkit-transform: rotateY(180deg);
 }
